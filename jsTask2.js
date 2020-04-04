@@ -16,10 +16,6 @@ function  interestCalculator() {
       var rate = 1;
     }
     var interest = data.principal * rate * data.time;
-    //console.log(interest);
-    //console.log(data.principal);
-    //console.log(rate);
-    //console.log(data.time);
     return myArray = {interestData:[data.principal, rate, data.time, interest ]};
   }
   console.log(myArray.interestData);
